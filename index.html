@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="http://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Services & Skills</a>
+            <a href="#portfolio" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Sanskar Shrimali</h1>
+        <div class="containeranimation">
+           <span class="text first-text">I'm a</span>
+           <span class="text sec-text"> Mobile App Developer</span>
+
+           <script>
+            const text = document.querySelector(".sec-text");
+
+            const textLoad = ()=>{
+                setTimeout(() => {
+                    text.textContent = " Mobile App Developer";
+                },0);
+                setTimeout(() => {
+                    text.textContent = " Backend Developer";
+                },4000);
+                setTimeout(() => {
+                    text.textContent = " Backend Developer";
+                },8000);
+            }
+            textLoad();
+            setInterval(textLoad, 12000);
+           </script>
+
+        </div>
+       
+        
+        <p>I'm a app designer with extensive experience for over 3 years. 
+            <br>Expertise is to create and app design, fronted design, backend design and many more......
+        </p>
+        
+            <div class="contact-icons">
+                <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                <a href=""><i class="bx bxl-twitter"></i></a>
+                <a href=""><i class="bx bxl-instagram"></i></a>
+                <a href=""><i class="bx bxl-tiktok"></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me </a>
+       </div>
+
+       <div class="about-img-first">
+        <img src="IMG_20220102_123611_492.jpg">
+    </div>
+        </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="IMG_20221227_155044_849.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About<span>  Me</span></h2>
+            <h2>Full Stack Developer!</h2>
+            <p>
+                I am skilled app designer with over 3 years of experience in the industry. My passion lies in creating captivating app design and implementing them through frontend development. I take pride in staying up-to-date with current design trends and leveraging my creativity to produce visually appealing and uset-friendly apps. Throughout my career, I have developed deep understanding of user experience and user interface principles. By putting myself in the shoes of the end-users, I strive to create intuitive and seamless browsing experience. I believe that a well-designed app should not only look visually appealing but also provide a smooth and enjoyable interaction for visitors. When starting a new project, I thoroughly research and analyze the target audience and the client's specific requirements. This enables me to tailor my designs to meet their expectations and deliver a unique online presence that aligns with their brand identity.
+            </p>
+
+            <a href="#" class="btn-box">More About Me </a>
+        </div>
+    </section>
+
+    <section>
+        <div class="skills" id="skills">
+            <div class="containerskill">
+            <h1 class="sub-title">My <span>Services & Skills</span></h1>
+            <div class="skills-list">
+                <div>
+                    <i class='bx bx-code' style='color: #00eeff'></i>
+                    <h2>Android Mobile UI Design</h2>
+                    <p>In android mobile ui design so i have done so many critical design with animation with Responsive. Experience of ui design which are suitable for different android mobile.</p>
+                    <a href="#" class="read">learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>Android Mobile Program Design</h2>
+                    <p>In android mobile program i have worked with both programming technology java and kotlin with the clean code structure, reusability, readability.</p>
+                    <a href="#" class="read">learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-code' style='color: #00eeff'></i>
+                    <h2>Backend Design For Frontend</h2>
+                    <p>I have also some experience with backend technology like spring boot. I have experience with CRUD operation api and JWT Authentication and profile picture upload things.</p>
+                    <a href="#" class="read">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="container1" id="Skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color: #22822c" class='bx bxl-android'></i>
+                    <div class="skill-name">
+                        <h1><span>Android-70%</span></h1>
+                    </div>
+                    <div class="containerprogress">
+                        <div class="skill html"></div>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #147bbc" class='bx bxl-android'></i>
+                    <div class="skill-name">
+                        <h1><span>Kotlin-70%</span></h1>
+                    </div>
+                    <div class="containerprogress">
+                        <div class="skill html"></div>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #d43b29" class='bx bxl-java'></i>
+                    <div class="skill-name">
+                        <h1><span>Java-70%</span></h1>
+                    </div>
+                    <div class="containerprogress">
+                        <div class="skill html"></div>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #292cd4" class='bx bxl-spring-boot'></i>
+                    <div class="skill-name">
+                        <h1><span>Spring-Boot-50%</span></h1>
+                    </div>
+                    <div class="containerprogress">
+                        <div class="skill html1"></div>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #69bcbc" class='bx bxl-mongodb'></i>
+                    <div class="skill-name">
+                        <h1><span>MySql-50%</span></h1>
+                    </div>
+                    <div class="containerprogress">
+                        <div class="skill html1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-list">
+             <div class="radial-bars">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">creativity</div>
+            </div>
+             <div class="radial-bars">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path2 path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Communication</div>
+            </div>
+             <div class="radial-bars">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path2 path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Problem Solving</div>
+            </div>
+             <div class="radial-bars">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path1 path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">TeamWork</div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section>
+
+        <div class="portfolio" id="portfolio">
+                <h1 class="sub-title-portfolio">Latest <span>Project</span></h1>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="t1.jpg">
+                    <div class="layer">
+                        <h5>Hoobio Android App Design</h5>
+                        <p>
+                            Build android app which is combination of many platform like E-Commerce, Social media page, Chat and implement various features such as Google map integration, 
+                            add Marker, Street view, 3D view, Current position in Google map and integration Socket IO for chat, Push notification, Strip integration for payment, Crashlitics 
+                            for errors and many more functionalities such as google authentication, firebase and parse for backend. 
+                           </p>
+                        <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="t2.jpg">
+                    <div class="layer">
+                        <h5>Koyn Android App Design</h5>
+                        <p>
+                            Implement feature like get location through google map integration, face scanner and invite contacts and done many things for enhance user's experience used clean architecture + MVvm  with Flow, Livedata & Coroutine. 
+                        </p>
+                        <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="t3.jpg">
+                    <div class="layer">
+                        <h5>Heard.Fm Android App Design</h5>
+                        <p>
+                           Build Podcast Android App using latest technology Jetpack Compose and integrate music player, integrate animation of compose, Responsive UI, Post creation, integrate Testfairy for error handling and analytics in app to enhance user's experience.
+                           Enabled functionality such as Hilt dependency injection, Event and State handling, Higher order functions.  
+                        </p>
+                        <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+         </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+
+        <div class="contact-text">
+            <h2>Contact<span> Me</span></h2>
+            <h4>Lets work together</h4>
+            <p>
+                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.  
+            </p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> sanskarshrimali1620@gmail.com </li>
+                <li><i class='bx bxs-phone'></i> 1234567890 </li>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form>
+                <input type="text"  class="input-field" placeholder="Enter Your name" required>
+                <input type="email"  class="input-field" placeholder="Enter Your Email" required>
+                <input type="text" class="input-field" placeholder="Enter Your Subject" required>
+                <textarea name="text" class="textarea-field" placeholder="Enter Your Message" required></textarea>
+            </form>
+            <a href="#" class="btn-box-submit">Submit</a>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p> Developed with love by Sanskar Shrimali- 2020</p>
+    </div>
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></a>
+        <script src="script.js"></script>
+</body>
+</html>
